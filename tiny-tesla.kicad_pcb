@@ -3,9 +3,9 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 102.907143 61.924999 194.552858 138.075001)
+    (area 102.907143 61.899999 194.552858 138.100001)
     (thickness 1.6)
-    (drawings 1)
+    (drawings 5)
     (tracks 0)
     (zones 0)
     (modules 4)
@@ -161,6 +161,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.5 5.5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_text "Access Cutout" (at 102.5 95.5) (layer Cmts.User) (tstamp 58AB9C5E)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Access Cutout" (at 186.5 128) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_arc (start 150 100) (end 112.467843 105.94451) (angle 33) (layer Dwgs.User) (width 0.2) (tstamp 58AB9C56))
+  (gr_arc (start 150 100) (end 184.714727 115.455992) (angle 33) (layer Dwgs.User) (width 0.2) (tstamp 58AB9C53))
   (gr_circle (center 150 100) (end 150 138) (layer Edge.Cuts) (width 0.15))
 
 )
